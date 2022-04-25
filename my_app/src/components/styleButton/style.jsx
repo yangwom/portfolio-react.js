@@ -1,6 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const ContainerButton = styled.div `
+const ContainerButton = styled.div`
 display: flex;
 flex-direction: row;
-`
+`;
+
+export default ContainerButton;

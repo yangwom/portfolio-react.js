@@ -1,7 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-
-export const  Container = styled.header `
+export const Container = styled.header`
 width: 100%;
 position: fixed;
 background-color: black;
@@ -12,12 +11,12 @@ justify-items: center;
 
 `;
 
-export const  Imagem = styled.img `
+export const Imagem = styled.img`
 width: 200px
 
 `;
 
-export const Button = styled.button `
+export const Button = styled.button`
 background-color: rgb(0, 255, 0);
 border: none;
 margin-left: 10px;

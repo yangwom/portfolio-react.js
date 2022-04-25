@@ -1,21 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { HashRouter } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import PortProvider from './context/portProvider'
-import { HashRouter } from 'react-router-dom';
+import PortProvider from './context/portProvider';
 
 ReactDOM.render(
- 
+
   <React.StrictMode>
-     <PortProvider>
-       <HashRouter>
-      <App />
+    <PortProvider>
+      <HashRouter>
+        <App />
       </HashRouter>
     </PortProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function
